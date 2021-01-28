@@ -6,6 +6,9 @@
         <title>Homepage</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" type="text/css" href="homepage.css">
+
+        <!-- To search with DuckDuckGo -->
+        <script type="text/javascript" src="search.js"></script>
     </head>
 
     <body background="london_ferris_wheel.jpg">
@@ -20,8 +23,8 @@
                 </span>
                 <br>
                 <div class="search">
-                    <form action="/search?">
-                        <input class="search_box" type="search" placeholder="Search with DuckDuckGo">
+                    <form method="GET" onsubmit="return searchWithDuck(event)">
+                        <input id="query_box" class="search_box" type="search" placeholder="Search with DuckDuckGo">
                         <button class="search_button" type="submit">
                             Search
                         </button>
