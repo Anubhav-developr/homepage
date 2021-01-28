@@ -30,7 +30,7 @@ function updateTime() {
     data.push(greeting);
 
     postMessage(data);
-    setTimeout("updateTime()", 60000);
+    setTimeout("updateTime()", 5000);
 }
 
 updateTime();
