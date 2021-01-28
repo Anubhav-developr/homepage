@@ -1,0 +1,28 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Place time and greeting in the very center */
+.main {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Governs the style of text for time */
+#time {
+    padding-left: 20px;
+    font-size: 120px;
+    color: white;
+}
+
+#greeting {
+    font-size: 50px;
+    color: LightGrey;
+}
