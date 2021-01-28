@@ -12,6 +12,8 @@ function getGreeting(hours) {
         return "Morning";
     } else if (hours < 16) {
         return "After Noon";
+    } else if (hours < 20) {
+        return "Evening";
     } else {
         return "Night";
     }

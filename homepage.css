@@ -17,7 +17,6 @@ body {
 
 /* Governs the style of text for time */
 #time {
-    padding-left: 20px;
     font-size: 120px;
     color: white;
 }
@@ -25,4 +24,5 @@ body {
 #greeting {
     font-size: 50px;
     color: LightGrey;
+    text-align: justify;
 }
